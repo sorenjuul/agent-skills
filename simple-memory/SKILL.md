@@ -1,6 +1,6 @@
 ---
 name: simple-memory
-description: 'Persistent memory and insights across sessions. When triggered, verify whether ~/.agents/simple-memory/insights.md was already loaded into the current session. If it was not, detect the active AI coding tool, configure an appropriate user-level startup mechanism so future sessions auto-load it, and then continue memory operations.'
+description: 'Persistent memory and insights across sessions. Triggers: "remember", "remember that", "keep in mind", "note that", "don''t forget", "forget about", "what do you remember". When triggered, verify whether ~/.agents/simple-memory/insights.md was already loaded into the current session. If it was not, detect the active AI coding tool, configure an appropriate user-level startup mechanism so future sessions auto-load it, and then continue memory operations.'
 allowed-tools: Read,Write,Edit,Bash,Grep
 ---
 
